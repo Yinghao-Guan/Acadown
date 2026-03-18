@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.guaguaaaa</groupId>
-    <artifactId>MyMD-Project</artifactId>
+    <artifactId>Acadown-Project</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
-        <module>mymd-core</module>
-        <module>mymd-ide</module>
+        <module>acadown-core</module>
+        <module>acadown-ide</module>
     </modules>
 
     <properties>
