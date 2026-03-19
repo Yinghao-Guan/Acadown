@@ -261,7 +261,7 @@ public class MainView {
     private void handleOpen() {
         FileChooser fileChooser = new FileChooser();
         fileChooser.setTitle("Open File");
-        fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("Markdown Files", "*.md", "*.acadown", "*.txt"));
+        fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("Acadown Files", "*.acd", "*.txt"));
         File initialDir = new File("sandbox");
         if (initialDir.exists()) {
             fileChooser.setInitialDirectory(initialDir);
@@ -294,7 +294,7 @@ public class MainView {
     private void handleSaveAs() {
         FileChooser fileChooser = new FileChooser();
         fileChooser.setTitle("Save As");
-        fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("Markdown Files", "*.md", "*.acadown"));
+        fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("Acadown Files", "*.acd"));
         File initialDir = new File("sandbox");
         if (initialDir.exists()) fileChooser.setInitialDirectory(initialDir);
         File file = fileChooser.showSaveDialog(editorContainer.getScene().getWindow());

@@ -261,7 +261,7 @@ public class MainViewModel {
     }
 
     /**
-     * 根据当前 Markdown 文件，推算同名的 .bib 文件路径
+     * 根据当前 .acd 文件，推算同名的 .bib 文件路径
      */
     private File getAssociatedBibFile() {
         if (this.currentFile == null) {
