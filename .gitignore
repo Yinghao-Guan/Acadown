@@ -52,3 +52,8 @@ Thumbs.db
 
 # 忽略临时文件
 temp/
+
+# Vibe coding
+.claude/
+CLAUDE.md
+AGENTS.md
